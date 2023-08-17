@@ -12,3 +12,9 @@ def get_top_stories():
         res.append({"title": story["title"], "type": story["type"], "url": story["url"], "id": story["id"]})
 
     return res
+
+def web_scraper():
+    pass
+
+def text_summarization():
+    pass
